@@ -1,0 +1,81 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d8d8d8;
+  max-width: 100vh;
+}
+
+body .tab {
+  background-color: white;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 650%;
+}
+
+body .tab .tab-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  border-bottom: 3px solid #211b36;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+  width: 100%;
+}
+
+body .tab .tab-header .active-head {
+  width: 25%;
+  height: 55px;
+  border-radius: 7px 7px 0px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.tab-header .active-heads {
+  background-color: rgba(255, 255, 255, 0.93);
+}
+
+.tab-content {
+  display: none;
+  padding: 48px;
+}
+
+.tab-contents {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.img {
+  padding-top: 27px;
+  margin-right: 18px;
+}
+
+.active-head {
+  background-color: #4c1595;
+}
+/*# sourceMappingURL=index.css.map */
